@@ -75,10 +75,13 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------*/
 .body {
   font-family: "Roboto";
+  background-color: #FFFFFF;
 }
 
 .container {
   margin: 33px 250px 0 250px;
+  max-width: 1445px;
+  max-height: 4759px;
 }
 .container__header {
   margin-bottom: 72px;
@@ -159,4 +162,50 @@ h1, h2, h3, h4, h5, h6 {
 .container__column3 span {
   font-weight: 700;
   color: #070707;
+}
+
+.container__about {
+  position: relative;
+  background-color: #F6F6F6;
+  width: 1699px;
+  height: 506px;
+  margin-left: -250px;
+  margin-top: 104px;
+  left: -150px;
+}
+
+.head-about {
+  display: flex;
+  justify-content: center;
+  font-size: 34px;
+  line-height: 42px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  padding-top: 120px;
+}
+
+.text-about {
+  display: flex;
+  font-size: 18px;
+  line-height: 22px;
+  justify-content: center;
+  flex-direction: column;
+}
+.text-about .text_about__p1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-indent: 50px;
+  margin-bottom: 35px;
+}
+.text-about .text_about__p2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.text-about .text_about__p3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
