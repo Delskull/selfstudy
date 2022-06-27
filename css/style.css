@@ -208,4 +208,29 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+.container__skills {
+  padding: 0px 530px 0px 0px;
+}
+.container__head {
+  padding-top: 91px;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  font-weight: 700;
+}
+.container__text {
+  padding-top: 69px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  padding-bottom: 83px;
+}
+.container__row {
+  display: flex;
+}
+.container__column {
+  flex: auto;
+  padding-left: 60px;
 }/*# sourceMappingURL=style.css.map */
