@@ -233,4 +233,34 @@ h1, h2, h3, h4, h5, h6 {
 .container__column {
   flex: auto;
   padding-left: 60px;
+  margin-bottom: 110px;
+}
+
+.container__portfolio {
+  position: relative;
+  background-color: #F6F6F6;
+  width: 1699px;
+  height: 2253px;
+  left: -400px;
+  justify-content: center;
+  text-align: center;
+}
+
+.portfolio__head {
+  padding-top: 112px;
+  padding-bottom: 47px;
+  font-size: 34px;
+  line-height: 42px;
+  font-weight: 700;
+}
+.portfolio__img {
+  margin-bottom: 44px;
+}
+.portfolio__text {
+  margin-bottom: 99px;
+  font-size: 18px;
+  line-height: 22px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #070707;
 }/*# sourceMappingURL=style.css.map */
