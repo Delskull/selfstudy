@@ -80,8 +80,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
   margin: 33px 250px 0 250px;
-  max-width: 1445px;
-  max-height: 4759px;
+  width: 1445px;
+  height: 4759px;
 }
 .container__header {
   margin-bottom: 72px;
@@ -263,4 +263,45 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #070707;
+}
+
+.container__footer {
+  text-align: center;
+  padding: 0px 530px 0px 0px;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.footer__head {
+  padding-top: 114px;
+  padding-bottom: 20px;
+  font-size: 34px;
+  line-height: 42px;
+  font-weight: 700;
+}
+.footer__text {
+  padding-bottom: 29px;
+}
+.footer__button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 42px;
+  border-radius: 24px;
+  color: white;
+  background-color: black;
+  font-size: 18px;
+  line-height: 22px;
+  left: 370px;
+  margin-bottom: 79px;
+}
+.footer__img {
+  margin-bottom: 45px;
+}
+.footer__text2 {
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
 }/*# sourceMappingURL=style.css.map */
