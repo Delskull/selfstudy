@@ -87,6 +87,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 72px;
   position: relative;
 }
+.container__header a {
+  text-decoration: none;
+  color: #070707;
+}
 .container__header::after {
   content: "";
   position: absolute;
@@ -296,6 +300,12 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 22px;
   left: 370px;
   margin-bottom: 79px;
+}
+.footer__button:active {
+  background-color: black;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 3px;
 }
 .footer__img {
   margin-bottom: 45px;

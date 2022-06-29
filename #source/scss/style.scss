@@ -15,6 +15,10 @@
     &__header {
         margin-bottom: 72px;
         position: relative;
+        a{
+        text-decoration: none;
+        color: #070707;
+        }
 
 &::after{
     content: '';
@@ -311,6 +315,7 @@ line-height: 42px;
 font-weight: 700;
 
 
+
     }
 
     // .footer__text
@@ -336,6 +341,13 @@ font-weight: 700;
 line-height: 22px;
 left: 370px;
 margin-bottom: 79px;
+&:active{
+
+	background-color: black;
+	box-shadow: 0px 2px 1px rgba(0,0,0,0.5);
+	position: relative;
+	top: 3px;
+}
 
 
     }

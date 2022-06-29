@@ -9,14 +9,14 @@
 </head>
 <body>
     <div class="container">
-    <div class="container__header">
+    <div class="container__header" id="home">
         <nav>
             <div class="header-item">
-            <div class="header-item1"><link href="#">Home</link></div>
-            <div class="header-item2"><link href="#">About me</link></div>
-            <div class="header-item3"><link href="#">Skills</link></div>
-            <div class="header-item4"><link href="#">Portfolio</link></div>
-            <div class="header-item5"><link href="#">Contacts</link></div>
+            <div class="header-item1"><a href="#home">Home</a></div>
+            <div class="header-item2"><a href="#about">About me</ф></div>
+            <div class="header-item3"><a href="#skills">Skills</a></div>
+            <div class="header-item4"><a href="#portfolio">Portfolio</a></div>
+            <div class="header-item5"><a href="#contacts">Contacts</a></div>
         </nav>
     </div>
     <div class="container__info">
@@ -26,8 +26,8 @@
     </div>
         <div class="img">
             <img src="/img/BSPP2266.jpg" alt="foto">
-        </div>
-<div class="container__about">
+         </div>
+<div class="container__about" id="about">
     <div class="head-about">About me.</div>
     <div class="text-about">
         <div class="text_about__p1"> Hi, I'm Denis – UX/UI designer from Minsk. <br>
@@ -43,7 +43,7 @@
 
 </div>
 
-<div class="container__skills">
+<div class="container__skills" id="skills">
     <div class="container__head">Skills</div>
     <div class="container__text">I work in such programs as</div>
     <div class="container__row">
@@ -76,7 +76,7 @@
     </div>
 </div>
 
-<div class="container__portfolio">
+<div class="container__portfolio" id="portfolio">
     <div class="portfolio__head">Portfolio</div>
     <div class="portfolio__img"><img src="/img/port1.png" alt="woman"></div>
     <div class="portfolio__text"><link href="#">Online fashion store - Homepage</link> </div>
@@ -87,11 +87,13 @@
 </div>
 
 
-<div class="container__footer">
+<div class="container__footer" id="contacts">
     <div class="footer__head">Contacts</div>
     <div class="footer__text">Want to know more or just chat?<br>
         You are welcome!</div>
-        <div class="footer__button">Send message</div>
+        <div class="footer__button">
+            <form action="#" method="post"></form>
+           <input type="submit" value=""> Send message</div>
         <div class="footer__img"><img src="/img/icon/Group 12.png" alt="socmedia"></div>
         <div class="footer__text2">Like me on <br>
             LinkedIn, Instagram, Behance, Dribble</div>
