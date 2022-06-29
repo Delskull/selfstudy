@@ -1,1 +1,1 @@
-https://github.com/Delskull.github.io/Selfstudy/
+http://Delskull.github.io/selfstudy/
